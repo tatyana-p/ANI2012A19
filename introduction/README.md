@@ -12,7 +12,7 @@ Différents commentaires dans le code source du programme expliquent ce que cett
 
 Un commentaire est du texte qui fait partie d'un programme, mais qui est ignoré lors de la compilation et l'exécution du programme.
 
-Avec le langage de programmation **Java**, qui est celui utilisé pas *Processing*, un commentaire est soit une ligne qui commence par les caractères '**//**' ou sinon par un bloc de texte sur plusieurs lignes qui est délimité par les caractères '**/\***' au début et '**\*/**' à la fin.
+Avec le langage de programmation **Java**, qui est celui utilisé par *Processing*, un commentaire est soit une ligne qui commence par les caractères '**//**' ou sinon par un bloc de texte sur plusieurs lignes qui est délimité par les caractères '**/\***' au début et '**\*/**' à la fin.
 
 ### Exemple 0.2
 
