@@ -49,6 +49,6 @@ while (diameter > 10)
   // s'assurer de ne pas dépasser la valeur de couleur minimale (0)
   colorFill = colorFill > 0 ? colorFill : 0;
 
-  // réduire le diamètre de 5% à chaque boucle
+  // réduire le diamètre de 5% à chaque itération
   diameter *= 0.95f;
 }
