@@ -6,6 +6,7 @@ size(1280, 128);
 // taille initiale
 float weight = 1.0f;
 
+// boucle pour dessiner 35 points de taille croissante
 for (int index = 1; index <= 35; ++index)
 {
   // taille du point
