@@ -45,14 +45,14 @@ for (indexPolygon = 0; indexPolygon < countPolygon; ++indexPolygon)
   // débuter une nouvelle forme vectorielle
   beginShape();
 
-  // une itération pour chaque sommet du polygone
+  // boucle avec une itération pour chaque côté du polygone
   for (indexVertex = 0; indexVertex < side; ++indexVertex)
   {
-    // calculer la position du sommet
+    // calculer la position du prochain sommet
     positionX = polygonX + cos(angle) * radius;
     positionY = polygonY + sin(angle) * radius;
 
-    // ajouter un sommet à la forme vectorielle
+    // ajouter le sommet au polygone
     vertex(positionX, positionY);
 
     // incrémenter l'angle pour le prochain sommet
