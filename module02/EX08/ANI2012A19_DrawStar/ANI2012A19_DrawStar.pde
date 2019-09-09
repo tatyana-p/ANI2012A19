@@ -7,18 +7,18 @@ float offset;
 float radius;
 float centerX;
 float centerY;
-float positionX1;
-float positionY1;
-float positionX2;
-float positionY2;
+float positionX;
+float positionY;
 
 void setup()
 {
   size(512, 512);
 
   strokeWeight(6);
+  strokeCap(ROUND);
 
   radius = width * 0.4f;
+
   centerX = width / 2.0f;
   centerY = height / 2.0f;
 }
@@ -26,21 +26,32 @@ void setup()
 void draw()
 {
   background(191);
+
+  // aligner le premier sommet sur l'axe Y
   angle = radians(-90.0f);
+
+  // angle entre chaque sommet
   offset = radians(360.0f / side);
 
+  // débuter une nouvelle forme vectorielle
+  beginShape();
+
+  // boucle avec une itération pour chaque côté du polygone
   for (int index = 0; index < side; ++index)
   {
-    positionX1 = centerX + cos(angle) * radius;
-    positionY1 = centerY + sin(angle) * radius;
+    // calculer la position du prochain sommet
+    positionX = centerX + cos(angle) * radius;
+    positionY = centerY + sin(angle) * radius;
 
+    // ajouter le sommet au polygone
+    vertex(positionX, positionY);
+
+    // décalage de 2 fois l'angle entre 2 sommets
     angle += offset * 2;
-
-    positionX2 = centerX + cos(angle) * radius;
-    positionY2 = centerY + sin(angle) * radius;
-
-    line(positionX1, positionY1, positionX2, positionY2);
   }
+
+  // terminer et rendre la forme vectorielle
+  endShape(CLOSE);
 }
 
 void keyReleased()
