@@ -31,6 +31,6 @@ void draw()
   // afficher l'image à nouveau au quart de la taille de la fenêtre d'affichage
   image(img, 0, 0, width / 4.0f, height / 4.0f);
 
-  // une seule mise à jour
+  // faire une seule mise à jour
   noLoop();
 }
