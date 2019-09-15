@@ -34,11 +34,11 @@ Dans cet exemple, différentes variables primitives et complexes sont déclarée
 
 Un programme peut manipuler des valeurs numériques de différents types (**int**, **float**, **double**) avec des opérateurs mathématiques tels que l'addition (**+**), la soustraction (**-**) la multiplication (**\***) et la division (**/** pour la partie entière et **%** pour le reste de la division).
 
-Dans cet exemple, différentes variables numériques sont déclarées et initialisées avec des valeurs entières (**int**), réelles à simple précision et réelles (**float**) à double précision (**double**).
+Dans cet exemple, différentes variables numériques sont déclarées et initialisées avec des valeurs entières (**int**), réelles à simple précision (**float**) et réelles à double précision (**double**).
 
 Ensuite, différentes opérations mathématiques sont effectuées à partir de ces variables et le résultat est affiché dans la console.
 
-À travers 20 exemples, l'objectif est de démontré le fonctionnement des opérateurs de calcul de base (**+**, **-**, **\***, **/**, **%**) et de comprendre le comportement de ces opérations en fonction du type des variables numériques et de la préséance des opérateurs (d'abord le contenu entre parenthèses, puis les multiplications et les divisions, ensuite les additions et les soustractions).
+À travers 20 exemples, l'objectif est de démontrer le fonctionnement des opérateurs de calcul de base (**+**, **-**, **\***, **/**, **%**) et de comprendre le comportement de ces opérations en fonction du type des variables numériques et de la préséance des opérateurs (d'abord le contenu entre parenthèses, puis les multiplications et les divisions, ensuite les additions et les soustractions).
 
 Cet exemple démontre aussi comment créer une constante avec le mot clé **final**, c'est-à-dire une variable immuable, dont la valeur ne peut plus être changée après initialisation.
 
@@ -58,7 +58,7 @@ Un programme peut rendre une animation en temps réel s'il possède au moins une
 
 Une animation peut être considérée comme étant en temps réel lorsque le temps écoulé entre chaque image (*frame*) est suffisamment rapide pour que l'oeil humain ne voie presque plus que ce n'est qu'une séquence d'images.
 
-Au minimum, il faut au moins 12-15 images par secondes pour qu'une animation commence à sembler être en temps réel.
+Au minimum, il faut au moins 12-15 images par seconde pour qu'une animation commence à sembler être en temps réel.
 
 Au cinéma, on a généralement du 24 ou 48 images secondes, cependant ce n'est pas vraiment considéré comme de l'animation temps réel puisque les images sont prédéfinies et rendues d'avance.
 
