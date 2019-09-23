@@ -91,8 +91,8 @@ void setup()
   // calculer l'angle qui sépare chaque sommet du polygone
   offset = radians(360.0f / count);
 
-  // ramener l'origine du cercle en haut
-  angle = offset * 2.0f * -1.0f;
+  // ramener en haut l'origine de l'angle de rotation autour du cercle
+  angle = -PI / 2.0f;
 
   // calculer la position du centre du polygone
   centerX = width / 2.0f;
