@@ -27,8 +27,7 @@ class Cell
   float probability;
 
   float timeStart;
-  float timeFrame;
-  float timeElapsed;
+  float timeNow;
   float timeActive;
 
   Automaton system;
@@ -42,14 +41,13 @@ class Cell
   void init()
   {
     state = statePrevious = stateNext = 0;
+    timeStart = millis();
     isActive = true;
   }
 
   void update()
   {
-    timeElapsed = (millis() - timeFrame) / 1000.0f;
-    timeFrame = millis();
-    timeActive = timeFrame - timeStart;
+    timeActive = timeNow - timeStart;
   }
 
   void evolve()

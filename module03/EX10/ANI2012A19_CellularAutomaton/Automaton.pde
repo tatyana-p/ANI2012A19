@@ -23,7 +23,7 @@ class Automaton
 
   float size;
 
-  float timeFrame;
+  float timeNow;
   float timeElapsed;
   float timeDelay;
   float timeThreshold;
@@ -104,7 +104,7 @@ class Automaton
 
     computeNeighborhood();
 
-    timeFrame = millis();
+    timeNow = millis();
     timeDelay = 0;
 
     frame = 0;
@@ -114,9 +114,9 @@ class Automaton
 
   void update()
   {
-    timeElapsed = (millis() - timeFrame) / 1000.0f;
+    timeElapsed = (millis() - timeNow) / 1000.0f;
     timeDelay += timeElapsed;
-    timeFrame = millis();
+    timeNow = millis();
 
     if (timeDelay > timeThreshold)
     {
