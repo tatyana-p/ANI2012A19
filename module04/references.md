@@ -81,3 +81,9 @@ http://processing.org/examples/convolution.html
 
 Animation à partir d'une séquence d'images  
 http://processing.org/examples/sequential.html
+
+Librairie pour la vidéo avec Processing  
+https://www.processing.org/reference/libraries/video/
+
+Video tutorial from Daniel Shiffman  
+https://processing.org/tutorials/video/
