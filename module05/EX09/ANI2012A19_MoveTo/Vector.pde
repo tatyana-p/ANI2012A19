@@ -1,4 +1,4 @@
-// ANI2012A19_Vector/Vector.pde
+// ANI2012A19_MoveTo/Vector.pde
 // Classe de type Vector (vecteur 3D).
 
 class Vector
