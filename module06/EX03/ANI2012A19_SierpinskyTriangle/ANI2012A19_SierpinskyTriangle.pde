@@ -1,4 +1,4 @@
-// ANI2012A18_SierpinskyTriangle.pde
+// ANI2012A19_SierpinskyTriangle.pde
 // Génération d'un système fractal de type triangle de Sierpinski.
 // Touches haut et bas pour changer le niveau de profondeur.
 
