@@ -27,6 +27,7 @@ void draw()
   shape(shape, width / 2.0f , height / 2.0f, 512, 512);
 
   // exporter le contenu de la fenêtre d'affichage dans une image non vectorielle
+  // saveFrame("render.png");
 
   // faire une seule mise à jour
   noLoop();
