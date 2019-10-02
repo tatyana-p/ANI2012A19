@@ -1,5 +1,6 @@
 // ANI2012A19_Audio1_File.pde
 // Exemple où un son est chargé en mémoire à partir d'un fichier externe (.mp3).
+// Le son peut ensuite être joué à partir d'une touche du clavier.
 // Le fichier à importer doit se trouver dans le répertoire /data qui accompagne le script principal.
 
 // importer la librairie audio de Processing
