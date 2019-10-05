@@ -1,7 +1,7 @@
 // ANI2012A19_Audio3_Synth.pde
 // Exemple d'un programme qui simule un synthétiseur qui peut de générer des notes de musiques.
 // Le synthétiseur peut jouer les notes d'une gamme en DO majeur avec les touches de 1 à 8 du clavier.
-// Le volume et la panoramique des notes jouées par le synthétiseur peuvent être ajustés avec les flèches du clavier.
+// Le volume et la position panoramique des notes jouées par le synthétiseur peuvent être ajustés avec les flèches du clavier.
 
 import processing.sound.*;
 
