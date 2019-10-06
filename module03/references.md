@@ -31,6 +31,9 @@ https://fr.wikipedia.org/wiki/Canon_(automate_cellulaire)
 Wikipédia: Automate Cellulaire (puffeur)  
 https://fr.wikipedia.org/wiki/Puffeur
 
+Wikipédia: Automate Cellulaire (oscillateur)  
+https://fr.wikipedia.org/wiki/Oscillateur_(automate_cellulaire)
+
 ## Processing
 
 Classe  
