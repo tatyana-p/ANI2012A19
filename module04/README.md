@@ -33,7 +33,7 @@ Afin qu'un programme puisse manipuler des couleurs, elles doivent d'abord être 
 
 Généralement, la couleur est encodée sur 8 bits par composante, soit 24 bits pour une couleur *RGB* (rouge, vert, bleu) et 32 bits pour une couleur *RGBA* (avec en plus une composante de transparence). Une couleur 32 bits peut être encodée directement dans une variable numérique entière (*integer*) où chaque tranche de 8 bits correspond à une des 4 composantes.
 
-Un autre mode de couleur fréquemment utilisé est le format *HSB*, où les composantes sont la teinte (hue) la saturation et la luminosité (/brightness/).
+Un autre mode de couleur fréquemment utilisé est le format *HSB*, où les composantes sont la teinte (*hue*) la saturation et la luminosité (*brightness*).
 
 #### Exemple 4.2.1
 
